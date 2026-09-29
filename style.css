@@ -1,0 +1,480 @@
+/* =========================================================
+   GENERAL STYLING
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+header {
+    background-color: #56104f;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3em;
+}
+
+header h1 {
+    font-size: 5vw;
+    margin: 0;
+}
+
+.section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 2em;
+    background-color: pink;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+}
+
+.section > h2 {
+    color: #020b1e;
+    text-align: center;
+}
+
+/* task 1 */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+.button {
+    padding: 10px;
+}
+
+#selectors {
+    background-color: pink;
+}
+
+.selector-box h3,
+.selector-box p {
+    margin-bottom: 10px;
+}
+
+.selector-box p {
+    color: #000000;
+}
+
+.selector-box > h3 {
+    color: #dc2626;
+}
+
+#selectors h2 + p {
+    background-color: #fef3c7;
+}
+
+
+#selectors h2 ~ h3 {
+    color: #971d97;
+}
+
+
+input[type="text"] {
+    border: 2px solid #8ba3d7;
+    padding: 10px;
+}
+
+/* task 2 */
+
+.units-card {
+    width: 100%;
+    height: 40vh;
+    padding: 2em;
+    border: 3px solid #891989;
+    border-radius: 10px;
+}
+
+.units-card h3 {
+    font-size: 2rem;
+}
+
+.units-card p {
+    font-size: 1rem;
+}
+
+.unit-button {
+    padding: 1em 2em;
+    border: 2px solid black;
+    background-color: #dbeafe;
+}
+
+.responsive-box {
+    width: 60%;
+    height: 20vh;
+    margin: 30px auto;
+    padding: 1em;
+    border: 5px solid #8c1f6d;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* task 3 */
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.color-card {
+    width: 30%;
+    min-width: 180px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.color-name {
+    background-color: red;
+    color: white;
+}
+
+.hex-color {
+    background-color: #2563eb;
+    color: white;
+}
+
+.rgb-color {
+    background-color: rgb(34, 197, 94);
+    color: white;
+}
+
+.rgba-color {
+    background-color: rgba(168, 85, 247, 0.5);
+    border: 3px solid rgb(126, 34, 206);
+}
+
+.hsl-color {
+    background-color: hsl(30, 100%, 50%);
+    color: white;
+}
+
+.hsla-color {
+    background-color: hsla(340, 80%, 50%, 0.5);
+    border: 3px solid hsl(340, 80%, 40%);
+}
+
+/* task4 */
+
+.article-title {
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subheading {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+.article-text {
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-left: 5px solid #531949;
+    background-color: #eff6ff;
+}
+
+.article-list {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* task5 */
+
+.uppercase-text {
+    color: #5a0f69;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.align-text {
+    text-align: center;
+}
+
+.last-align {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.decoration-text {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(183, 30, 30);
+    text-decoration-thickness: 3px;
+}
+
+.indent-text {
+    text-indent: 50px;
+}
+
+.spacing-text {
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+.line-height-text {
+    line-height: 2;
+}
+
+.shadow-text {
+    color: #5b1368;
+    text-shadow: 3px 3px 5px gray;
+}
+
+.nowrap-text {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.break-text {
+    word-break: break-all;
+    max-width: 300px;
+}
+
+.wrap-text {
+    overflow-wrap: break-word;
+    max-width: 500px;
+}
+
+/* task6 */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.image-card {
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+}
+
+.normal-image {
+    width: 100%;
+    height: 220px;
+    max-width: 100%;
+    min-width: 200px;
+    max-height: 250px;
+    object-fit: fill;
+    object-position: center;
+    opacity: 1;
+    border: 3px solid #202122;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.circle-image {
+    width: 220px;
+    height: 220px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.9;
+    border: 5px solid #0a0a0a;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.cover-image {
+    width: 250px;
+    height: 220px;
+    max-width: 100%;
+    min-width: 200px;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.9;
+    border: 3px solid #0f0f0f;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.object-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.object-examples img {
+    width: 250px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.object-contain {
+    object-fit: contain;
+}
+
+.object-fill {
+    object-fit: fill;
+}
+
+/* task7 */
+   TASK 7 - PERSONAL PROFILE CARD
+   ========================================================= */
+
+.profile-card {
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    background-color: #eff6ff;
+    border: 3px solid #2563eb;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid #141414;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px gray;
+    opacity: 0.95;
+}
+
+.profile-name {
+    font-size: 2rem;
+    color: #931c83;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.profession {
+    color: rgb(168, 58, 180);
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.profile-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.skills {
+    text-align: left;
+    line-height: 1.8;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    color: #2563eb;
+    text-decoration: underline;
+    text-decoration-color: #2563eb;
+}
+
+.contact-button {
+    padding: 1em 2em;
+    border: 2px solid #6f2971;
+    border-radius: 10px;
+    background-color: #d1448a;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* task8 */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #777;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #da83d4;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #440239;
+    color: white;
+    text-align: center;
+}
+
+/* responsive design */
+@media (max-width: 700px) {
+
+    .section {
+        width: 95%;
+        padding: 1em;
+    }
+
+    .color-card {
+        width: 100%;
+    }
+
+    .image-card {
+        width: 100%;
+    }
+
+    .units-card {
+        height: auto;
+    }
+
+    .responsive-box {
+        width: 90%;
+    }
+
+}

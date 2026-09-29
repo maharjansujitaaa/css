@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Fundamentals Practical Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- task1 -->
+
+    <header>
+      <h1>CSS Fundamentals</h1>
+      <p>Selectors, Units, Colors, Typography, Text and Images</p>
+    </header>
+
+    <section id="selectors" class="section">
+      <h2>Task 1 - CSS Selectors</h2>
+
+      <p>This paragraph demonstrates the element and descendant selectors.</p>
+
+      <div class="selector-box">
+        <h3>Selector Demonstration</h3>
+
+        <p>This paragraph is inside the selector box.</p>
+
+        <button class="button">Click Me</button>
+      </div>
+
+      <h3 class="skill-title">My Skills</h3>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+      </ul>
+
+      <h3>Useful Links</h3>
+
+      <a href="https://www.google.com">Google</a>
+
+      <br /><br />
+
+      <input type="text" placeholder="Enter your name" />
+    </section>
+
+    <!-- task2 -->
+
+    <section id="units" class="section">
+      <h2>Task 2 - CSS Units</h2>
+
+      <div class="units-card">
+        <h3>CSS Units Example</h3>
+
+        <p>This section demonstrates px, %, em, rem, vw and vh units.</p>
+
+        <button class="unit-button">Learn More</button>
+      </div>
+
+      <div class="responsive-box">Responsive Box</div>
+    </section>
+
+    <!-- task3 -->
+
+    <section id="colors" class="section">
+      <h2>Task 3 - CSS Colors</h2>
+
+      <div class="color-container">
+        <div class="color-card color-name">
+          <h3>Color Name</h3>
+          <p>Red</p>
+        </div>
+
+        <div class="color-card hex-color">
+          <h3>HEX</h3>
+          <p>#2563EB</p>
+        </div>
+
+        <div class="color-card rgb-color">
+          <h3>RGB</h3>
+          <p>rgb(34, 197, 94)</p>
+        </div>
+
+        <div class="color-card rgba-color">
+          <h3>RGBA</h3>
+          <p>rgba(168, 85, 247, 0.5)</p>
+        </div>
+
+        <div class="color-card hsl-color">
+          <h3>HSL</h3>
+          <p>hsl(30, 100%, 50%)</p>
+        </div>
+
+        <div class="color-card hsla-color">
+          <h3>HSLA</h3>
+          <p>hsla(340, 80%, 50%, 0.5)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- task4 -->
+
+    <section id="typography" class="section article">
+      <h2>Task 4 - Typography</h2>
+
+      <h1 class="article-title">The Importance of Learning CSS</h1>
+
+      <h3 class="subheading">Building beautiful and responsive websites</h3>
+
+      <p class="article-text">
+        CSS is an important technology used to design and style websites. It
+        controls colors, spacing, fonts, layouts and many other visual features
+        of a webpage.
+      </p>
+
+      <p class="article-text">
+        Learning CSS helps developers create websites that are attractive,
+        readable and responsive on different devices.
+      </p>
+
+      <blockquote>
+        "Good design makes a website easier to understand."
+      </blockquote>
+
+      <ul class="article-list">
+        <li>Learn selectors</li>
+        <li>Understand units</li>
+        <li>Practice typography</li>
+        <li>Experiment with colors</li>
+      </ul>
+    </section>
+
+<!-- task5 -->
+
+    <section id="text-showcase" class="section">
+      <h2>Task 5 - CSS Text Showcase</h2>
+
+      <h3 class="uppercase-text">Text Transform Example</h3>
+
+      <p class="align-text">This text demonstrates text alignment.</p>
+
+      <p class="last-align">
+        This paragraph demonstrates text-align-last. The last line can be
+        aligned differently from the other lines.
+      </p>
+
+      <p class="decoration-text">This text demonstrates text decoration.</p>
+
+      <p class="indent-text">
+        This paragraph demonstrates text indentation. The first line starts with
+        extra space to demonstrate text-indent.
+      </p>
+
+      <p class="spacing-text">
+        Letter spacing and word spacing are demonstrated in this sentence.
+      </p>
+
+      <p class="line-height-text">
+        This paragraph demonstrates line height. Increasing line height makes
+        the text easier to read. It creates more vertical space between lines.
+      </p>
+
+      <h3 class="shadow-text">CSS TEXT SHOWCASE</h3>
+
+      <p class="nowrap-text">This is an example of white-space property.</p>
+
+      <p class="break-text">
+        ThisIsAVeryLongWordThatDemonstratesWordBreakingInCSS
+      </p>
+
+      <p class="wrap-text">
+        This is a paragraph demonstrating overflow-wrap which allows long words
+        to wrap inside their container.
+      </p>
+    </section>
+
+    <!-- task6 -->
+
+    <section id="images" class="section">
+      <h2>Task 6 - Image Properties</h2>
+
+      <div class="image-container">
+        <div class="image-card">
+          <h3>Image 1 - Normal Image</h3>
+
+          <img
+            src="images/image1.jpg"
+            alt="Normal image"
+            class="normal-image"
+          />
+        </div>
+
+        <div class="image-card">
+          <h3>Image 2 - Circular Image</h3>
+
+          <img
+            src="images/image2.jpg"
+            alt="Circular profile image"
+            class="circle-image"
+          />
+        </div>
+
+        <div class="image-card">
+          <h3>Image 3 - Object Fit</h3>
+
+          <img
+            src="images/image3.jpg"
+            alt="Fixed size image"
+            class="cover-image"
+          />
+        </div>
+      </div>
+
+      <h3>Object Fit Examples</h3>
+
+      <div class="object-examples">
+        <div>
+          <p>Cover</p>
+
+          <img
+            src="images/image3.jpg"
+            alt="Cover example"
+            class="object-cover"
+          />
+        </div>
+
+        <div>
+          <p>Contain</p>
+
+          <img
+            src="images/image3.jpg"
+            alt="Contain example"
+            class="object-contain"
+          />
+        </div>
+
+        <div>
+          <p>Fill</p>
+
+          <img src="images/image3.jpg" alt="Fill example" class="object-fill" />
+        </div>
+      </div>
+    </section>
+
+  <!-- task7 -->
+
+    <section id="profile" class="section">
+      <h2>Task 7 - Personal Profile Card</h2>
+
+      <div class="profile-card">
+        <img
+          src="images/image2.jpg"
+          alt="Profile picture"
+          class="profile-image"
+        />
+
+        <h2 class="profile-name">Sujita Maharjan</h2>
+
+        <h3 class="profession">Student</h3>
+
+        <p class="profile-description">
+         I like to learn new things and explore the world of technology. I am passionate about web development and enjoy creating beautiful and functional websites.
+        </p>
+
+        <h3>My Skills</h3>
+
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+        </ul>
+
+        <div class="social-links">
+          <a href="https://www.facebook.com"> Facebook </a>
+
+          <a href="https://www.instagram.com"> Instagram </a>
+
+          <a href="https://www.linkedin.com"> LinkedIn </a>
+        </div>
+
+        <button class="contact-button">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- task8 -->
+
+    <section id="observations" class="section">
+      <h2>Task 8 - Experiment and Observation</h2>
+
+      <table>
+        <tr>
+          <th>Property</th>
+          <th>Value 1</th>
+          <th>Value 2</th>
+          <th>Value 3</th>
+          <th>Observation</th>
+        </tr>
+
+        <tr>
+          <td>font-size</td>
+          <td>16px</td>
+          <td>24px</td>
+          <td>32px</td>
+          <td>Text becomes larger</td>
+        </tr>
+
+        <tr>
+          <td>text-align</td>
+          <td>left</td>
+          <td>center</td>
+          <td>right</td>
+          <td>Text position changes</td>
+        </tr>
+
+        <tr>
+          <td>opacity</td>
+          <td>1</td>
+          <td>0.5</td>
+          <td>0.2</td>
+          <td>Element becomes transparent</td>
+        </tr>
+
+        <tr>
+          <td>border-radius</td>
+          <td>0px</td>
+          <td>20px</td>
+          <td>50%</td>
+          <td>Corners become more rounded</td>
+        </tr>
+
+        <tr>
+          <td>width</td>
+          <td>30%</td>
+          <td>60%</td>
+          <td>90%</td>
+          <td>Element becomes wider</td>
+        </tr>
+      </table>
+    </section>
+
+    <footer>
+      <p>CSS Fundamentals</p>
+    </footer>
+  </body>
+</html>
